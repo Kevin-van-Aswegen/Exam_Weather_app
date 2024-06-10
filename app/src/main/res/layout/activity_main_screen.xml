@@ -22,7 +22,8 @@
         app:layout_constraintHorizontal_bias="0.053"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintVertical_bias="0.087"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
 
     <TextView
         android:id="@+id/mondayMin"
@@ -38,7 +39,8 @@
         app:layout_constraintHorizontal_bias="0.115"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.168" />
+        app:layout_constraintVertical_bias="0.168"
+        tools:ignore="SpUsage" />
 
     <TextView
         android:id="@+id/mondayMax"
@@ -54,7 +56,8 @@
         app:layout_constraintHorizontal_bias="0.202"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.168" />
+        app:layout_constraintVertical_bias="0.168"
+        tools:ignore="SpUsage" />
 
     <Button
         android:id="@+id/tuesdayButton"
@@ -70,7 +73,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintVertical_bias="0.086"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
 
     <TextView
         android:id="@+id/tuesdayMin"
@@ -80,7 +84,7 @@
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.437"
@@ -96,7 +100,7 @@
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.542"
@@ -112,13 +116,14 @@
         android:text="Wednesday"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.968"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintVertical_bias="0.086"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <TextView
         android:id="@+id/wednesdayMin"
@@ -128,7 +133,7 @@
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.795"
@@ -144,7 +149,7 @@
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.892"
@@ -160,13 +165,14 @@
         android:text="Thursday"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.432" />
+        app:layout_constraintVertical_bias="0.432"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/thursdayMin"
@@ -176,7 +182,7 @@
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.115"
@@ -192,7 +198,7 @@
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.202"
@@ -214,7 +220,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.432" />
+        app:layout_constraintVertical_bias="0.432"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
 
     <TextView
         android:id="@+id/fridayMin"
@@ -230,7 +237,8 @@
         app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="SpUsage" />
 
     <TextView
         android:id="@+id/fridayMax"
@@ -246,7 +254,8 @@
         app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="SpUsage" />
 
     <Button
         android:id="@+id/saturdayButton"
@@ -256,13 +265,14 @@
         android:text="Saturday"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.906"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.432" />
+        app:layout_constraintVertical_bias="0.432"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <TextView
         android:id="@+id/saturdayMin"
@@ -278,7 +288,8 @@
         app:layout_constraintHorizontal_bias="0.795"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="SpUsage" />
 
     <TextView
         android:id="@+id/saturdayMax"
@@ -288,7 +299,7 @@
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.892"
@@ -304,13 +315,14 @@
         android:text="Sunday"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.64" />
+        app:layout_constraintVertical_bias="0.64"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <TextView
         android:id="@+id/sundayMin"
@@ -320,7 +332,7 @@
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.437"
@@ -336,7 +348,7 @@
         android:text=""
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="14dp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.542"
@@ -358,6 +370,8 @@
         app:layout_constraintHorizontal_bias="0.086"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.954" />
+        app:layout_constraintVertical_bias="0.954"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

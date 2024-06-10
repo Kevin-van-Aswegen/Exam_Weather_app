@@ -9,6 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import org.w3c.dom.Text
 
 class Main_Screen : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -53,34 +54,54 @@ class Main_Screen : AppCompatActivity() {
         val sunMin = findViewById<TextView>(R.id.sundayMin)
         val sunMax = findViewById<TextView>(R.id.sundayMax)
 
+
+
         backButton.setOnClickListener {
             val intent = Intent(this, Login_Screen::class.java)
             startActivity(intent)
         }
 
-        val randomMin = (0..12).random()
-        val randomMax = (17..35).random()
+        val randomMoMin = (0..12).random()
+        val randomMoMax = (17..35).random()
 
-        monMin.text = randomMin.toString()
-        monMax.text = randomMax.toString()
+        val randomTuMin = (0..12).random()
+        val randomTuMax = (17..35).random()
 
-        tueMin.text = randomMin.toString()
-        tueMax.text = randomMax.toString()
+        val randomWeMin = (0..12).random()
+        val randomWeMax = (17..35).random()
 
-        wedMin.text = randomMin.toString()
-        wedMax.text = randomMax.toString()
+        val randomThMin = (0..12).random()
+        val randomThMax = (17..35).random()
 
-        thuMin.text = randomMin.toString()
-        thuMax.text = randomMax.toString()
+        val randomFrMin = (0..12).random()
+        val randomFrMax = (17..35).random()
 
-        friMin.text = randomMin.toString()
-        friMax.text = randomMax.toString()
+        val randomSaMin = (0..12).random()
+        val randomSaMax = (17..35).random()
 
-        satMin.text = randomMin.toString()
-        satMax.text = randomMax.toString()
+        val randomSuMin = (0..12).random()
+        val randomSuMax = (17..35).random()
 
-        sunMin.text = randomMin.toString()
-        sunMax.text = randomMax.toString()
+        monMin.text = randomMoMin.toString()
+        monMax.text = randomMoMax.toString()
+
+        tueMin.text = randomTuMin.toString()
+        tueMax.text = randomTuMax.toString()
+
+        wedMin.text = randomWeMin.toString()
+        wedMax.text = randomWeMax.toString()
+
+        thuMin.text = randomThMin.toString()
+        thuMax.text = randomThMax.toString()
+
+        friMin.text = randomFrMin.toString()
+        friMax.text = randomFrMax.toString()
+
+        satMin.text = randomSaMin.toString()
+        satMax.text = randomSaMax.toString()
+
+        sunMin.text = randomSuMin.toString()
+        sunMax.text = randomSuMax.toString()
 
         monButton.setOnClickListener{
 
@@ -173,5 +194,9 @@ class Main_Screen : AppCompatActivity() {
             startActivity(intent)
         }
 
-    }
+        val averageMinarray = arrayListOf<TextView>(monMin,tueMin,wedMin,thuMin,friMin,satMin,sunMin)
+        val averageMaxarray = arrayListOf<TextView>(monMax,tueMax,wedMax,thuMax,friMax,satMax,sunMax)
+
+        }
+
 }
