@@ -24,6 +24,14 @@ class Main_Screen : AppCompatActivity() {
 
         val backButton = findViewById<Button>(R.id.backButton)
 
+        val monButton = findViewById<Button>(R.id.mondayButton)
+        val tueButton = findViewById<Button>(R.id.tuesdayButton)
+        val wedButton = findViewById<Button>(R.id.wednesdayButton)
+        val thuButton = findViewById<Button>(R.id.thursdayButton)
+        val friButton = findViewById<Button>(R.id.fridayButton)
+        val satButton = findViewById<Button>(R.id.saturdayButton)
+        val sunButton = findViewById<Button>(R.id.sundayButton)
+
         val monMin = findViewById<TextView>(R.id.mondayMin)
         val monMax = findViewById<TextView>(R.id.mondayMax)
 
@@ -73,6 +81,97 @@ class Main_Screen : AppCompatActivity() {
 
         sunMin.text = randomMin.toString()
         sunMax.text = randomMax.toString()
+
+        monButton.setOnClickListener{
+
+            var maxTemp = monMax.text.toString()
+            var minTemp = monMin.text.toString()
+
+            intent = Intent (this, Detailed_Monday_Screen::class.java)
+
+            intent.putExtra("maxTemp", maxTemp)
+            intent.putExtra("minTemp", minTemp)
+
+            startActivity(intent)
+        }
+
+        tueButton.setOnClickListener{
+
+            var maxTemp = tueMax.text.toString()
+            var minTemp = tueMin.text.toString()
+
+            intent = Intent (this, Detailed_Tuesday_Screen::class.java)
+
+            intent.putExtra("maxTemp", maxTemp)
+            intent.putExtra("minTemp", minTemp)
+
+            startActivity(intent)
+        }
+
+        wedButton.setOnClickListener{
+
+            var maxTemp = wedMax.text.toString()
+            var minTemp = wedMin.text.toString()
+
+            intent = Intent (this, Detailed_Wednesday_Screen::class.java)
+
+            intent.putExtra("maxTemp", maxTemp)
+            intent.putExtra("minTemp", minTemp)
+
+            startActivity(intent)
+        }
+
+        thuButton.setOnClickListener{
+
+            var maxTemp = thuMax.text.toString()
+            var minTemp = thuMin.text.toString()
+
+            intent = Intent (this, Detailed_Thursday_Screen::class.java)
+
+            intent.putExtra("maxTemp", maxTemp)
+            intent.putExtra("minTemp", minTemp)
+
+            startActivity(intent)
+        }
+
+        friButton.setOnClickListener{
+
+            var maxTemp = friMax.text.toString()
+            var minTemp = friMin.text.toString()
+
+            intent = Intent (this, Detailed_Friday_Screen::class.java)
+
+            intent.putExtra("maxTemp", maxTemp)
+            intent.putExtra("minTemp", minTemp)
+
+            startActivity(intent)
+        }
+
+        satButton.setOnClickListener{
+
+            var maxTemp = satMax.text.toString()
+            var minTemp = satMin.text.toString()
+
+            intent = Intent (this, Detailed_Saturday_Screen::class.java)
+
+            intent.putExtra("maxTemp", maxTemp)
+            intent.putExtra("minTemp", minTemp)
+
+            startActivity(intent)
+        }
+
+        sunButton.setOnClickListener{
+
+            var maxTemp = sunMax.text.toString()
+            var minTemp = sunMin.text.toString()
+
+            intent = Intent (this, Detailed_Sunday_Screen::class.java)
+
+            intent.putExtra("maxTemp", maxTemp)
+            intent.putExtra("minTemp", minTemp)
+
+            startActivity(intent)
+        }
 
     }
 }
