@@ -1,5 +1,6 @@
 package com.example.examweatherapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -21,6 +22,9 @@ class Login_Screen : AppCompatActivity() {
         }
 
         val exitbutton = findViewById<Button>(R.id.exitApp)
+        val nextbutton = findViewById<Button>(R.id.nextScreenbutton)
+
+        val intent = getIntent()
 
         exitbutton.setOnClickListener{
 
@@ -28,5 +32,11 @@ class Login_Screen : AppCompatActivity() {
 
         }
 
+        nextbutton.setOnClickListener{
+
+            val intent = Intent(this, Main_Screen::class.java)
+            startActivity(intent)
+
+        }
     }
 }

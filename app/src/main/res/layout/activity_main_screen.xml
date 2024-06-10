@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main_Screen"
-    android:background="@drawable/main_screen_background">
+    android:background="@drawable/main_screen_backround"
+    tools:context=".Main_Screen">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
