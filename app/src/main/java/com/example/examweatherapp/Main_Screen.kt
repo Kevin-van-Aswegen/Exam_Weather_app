@@ -9,7 +9,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import java.util.Random
 
 class Main_Screen : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
@@ -24,7 +23,6 @@ class Main_Screen : AppCompatActivity() {
         }
 
         val backButton = findViewById<Button>(R.id.backButton)
-        val random = Random()
 
         val monMin = findViewById<TextView>(R.id.mondayMin)
         val monMax = findViewById<TextView>(R.id.mondayMax)
@@ -75,5 +73,6 @@ class Main_Screen : AppCompatActivity() {
 
         sunMin.text = randomMin.toString()
         sunMax.text = randomMax.toString()
+
     }
 }

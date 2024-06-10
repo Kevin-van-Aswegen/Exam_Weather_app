@@ -5,8 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Detailed_Screen"
-    android:background="@drawable/main_screen_backround"
-    >
+    tools:context=".Detailed_Friday_Screen">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

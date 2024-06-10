@@ -13,7 +13,25 @@
         android:theme="@style/Theme.ExamWeatherApp"
         tools:targetApi="31">
         <activity
-            android:name=".Detailed_Screen"
+            android:name=".Detailed_Sunday_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".Detailed_Saturday_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".Detailed_Friday_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".Detailed_Thursday_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".Detailed_Wednesday_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".Detailed_Tuesday_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".Detailed_Monday_Screen"
             android:exported="false" />
         <activity
             android:name=".Main_Screen"
